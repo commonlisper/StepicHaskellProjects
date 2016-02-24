@@ -5,6 +5,7 @@ import Data.Char
 --------------------------------------------------------------------------
 basicTypesMain :: IO()
 basicTypesMain = do
+  print "Basic Types"
   print $ "------------------------------"
   print $ standardDiscount 1020
   print $ standardDiscount 500.00
@@ -17,6 +18,7 @@ basicTypesMain = do
   print $ twoDigits2Int 'a' 'h'
   print $ "------------------------------"
   print $ dist (0, 0) (5, 5)
+  print $ "------------------------------"
 --------------------------------------------------------------------------
 discount :: Double -> Double -> Double -> Double
 discount limit proc sum =

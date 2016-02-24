@@ -3,14 +3,21 @@ where
 --------------------------------------------------------------------------
 functionsMain :: IO()
 functionsMain = do
-  -- print (sumOfSquares 2 5)
-  -- print (lenVec3 2 3 6)
-  -- print twentyTwo
-  -- print (sign (100))
-  -- print (sign (-100))
-  -- print (sign 0)
+  print "Functions"
+  print $ "------------------------------"
+  print (sumOfSquares 2 5)
+  print $ "------------------------------"
+  print (lenVec3 2 3 6)
+  print $ "------------------------------"
+  print twentyTwo
+  print $ "------------------------------"
+  print (sign (100))
+  print (sign (-100))
+  print (sign 0)
+  print $ "------------------------------"
   print (standardDiscount 2000)
   print (standardDiscount 900)
+  print $ "------------------------------"
 --------------------------------------------------------------------------
 square a = a * a
 sumOfSquares a b = square a  + square b
