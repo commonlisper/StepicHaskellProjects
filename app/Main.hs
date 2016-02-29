@@ -5,6 +5,7 @@ import Functions
 import Operators
 import BasicTypes
 import Recursion
+import LocalBindingAndIndents
 
 main :: IO ()
 main = do
@@ -12,3 +13,4 @@ main = do
   operatorsMain
   basicTypesMain
   recursionMain
+  localBindingAndIndentsMain
