@@ -21,6 +21,7 @@ library
                      , BasicTypes
                      , Recursion
                      , LocalBindingAndIndents
+                     , ParametricPolymorphism1
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
 

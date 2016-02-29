@@ -6,6 +6,7 @@ import Operators
 import BasicTypes
 import Recursion
 import LocalBindingAndIndents
+import ParametricPolymorphism1
 
 main :: IO ()
 main = do
@@ -14,3 +15,4 @@ main = do
   basicTypesMain
   recursionMain
   localBindingAndIndentsMain
+  parametricPolymorphism1Main
