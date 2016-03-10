@@ -10,7 +10,14 @@ main = do
   print $ groupElems [1,2,3,2,4]
   print $ "------------------------------"
 --------------------------------------------------------------------------
-groupElems :: Eq a => [a] -> [[a]]
+-- groupElems :: Eq a => [a] -> [[a]]
+-- groupElems []      = []
+-- groupElems (x:xs)
+--     | fst spanned == [] = x : groupElems (snd spanned)
+--     | otherwise         = [x : fst spanned] ++ groupElems (snd spanned)
+--     where
+--       spanned = span (== x) xs
+--------------------------------------------------------------------------
 -- groupElems []     = []
 -- groupElems (x:xs) = case xs of
 --   y:ys | y == x -> x:y:groupElems xs
